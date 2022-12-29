@@ -11,4 +11,10 @@ body {
 
 .card {
   display: flex;
+  width: 600px;
+  height: 450px;
+}
+.card__photo {
+  width: 300px;
+  height: 450px;
 }
