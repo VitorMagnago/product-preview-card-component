@@ -53,14 +53,27 @@ body {
 }
 
 .card__product-descr {
-  font-size: 12px;
+  font-size: 14px;
   color: hsl(228, 12%, 48%);
   line-height: 1.5;
 }
 
 .prices {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.card__product-price {
+  font-size: 32px;
+  color: hsl(158, 36%, 37%);
+}
+
+.card__product-discount {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
 }
 
 .btn {
