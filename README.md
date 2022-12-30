@@ -24,7 +24,7 @@ I had a little trouble switching images between the desktop and mobile versions,
 
 ### Links
 
-- [Solution in Front End Mentor Site:]()
+- [Solution in Front End Mentor Site:](https://www.frontendmentor.io/solutions/product-preview-card-component-j8CYxAElK5)
 - [Live Site](https://vitormagnago.github.io/product-preview-card-component/)
 
 ## My process
