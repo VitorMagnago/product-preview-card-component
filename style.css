@@ -2,7 +2,7 @@
 
 body {
   background-color: hsl(30, 38%, 92%);
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -88,4 +88,38 @@ body {
   border-radius: 10px;
   gap: 8px;
   font-weight: 700;
+}
+.btn:active {
+  background-color: hsl(156, 60%, 25%);
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+/* Mobile Version */
+.card {
+  width: 343px;
+  height: 611px;
+  flex-direction: column;
+}
+
+.card__photo {
+  width: 343px;
+  height: 240px;
+  border-radius: 8px 8px 0 0;
+  background-image: url(images/image-product-mobile.jpg);
+}
+
+.card__info {
+  border-radius: 0 0px 8px 8px;
+  padding: 23px;
+  height: 100%;
+}
+.card__product-name {
+  font-size: 34px;
+}
+
+.btn {
+  width: 296px;
+  height: 50px;
 }
